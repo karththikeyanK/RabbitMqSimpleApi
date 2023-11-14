@@ -2,7 +2,6 @@ package com.rabbitMq.api.controller;
 
 import com.rabbitMq.api.dto.User;
 import com.rabbitMq.api.publisher.RabbitMqJsonProducer;
-import com.rabbitMq.api.publisher.RabbitMqProducer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
